@@ -32,8 +32,26 @@
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".views.MainActivity" android:screenOrientation="portrait" />
-		<activity android:name=".views.gen.GenActivity" android:screenOrientation="portrait" />
+		<activity 
+		    android:name=".views.MainActivity" 
+		    android:screenOrientation="portrait" />
+		<activity 
+		    android:name=".views.gen.GenActivity" 
+		    android:screenOrientation="portrait" >
+		    <meta-data
+		        android:name="android.support.PARENT_ACTIVITY"
+		        android:value=".views.MainActivity">
+		    </meta-data>
+		</activity>
+		<activity
+		    android:name=".views.gen.ScriptSettingActivity" >
+		    <meta-data
+		        android:name="android.support.PARENT_ACTIVITY"
+		        android:value=".views.gen.GenActivity">
+		    </meta-data>
+		</activity>
+		<activity
+		    android:name=".views.gen.SignalDetailActivity"></activity>
 	</application>
 
 </manifest>
