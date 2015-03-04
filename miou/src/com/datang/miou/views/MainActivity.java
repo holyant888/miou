@@ -7,6 +7,7 @@ import com.datang.miou.ActivitySupport;
 import com.datang.miou.R;
 import com.datang.miou.annotation.AfterView;
 import com.datang.miou.annotation.AutoView;
+import com.datang.miou.views.data.DataActivity;
 import com.datang.miou.views.gen.GenActivity;
 
 /**
@@ -30,6 +31,15 @@ public class MainActivity extends ActivitySupport {
 				startActivity(new Intent(mContext, GenActivity.class));
 			}
 		});
+        /**
+         * 数据管理
+         */
+        f(R.id.main_btn_datas).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(mContext,DataActivity.class));
+            }
+        });
 		
 	}
 }
