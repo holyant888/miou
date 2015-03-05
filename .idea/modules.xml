@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../ViewPagerIndicator/library/ViewPagerIndicator.iml" filepath="$PROJECT_DIR$/../ViewPagerIndicator/library/ViewPagerIndicator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../ActionBarSherlock/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/../ActionBarSherlock/actionbarsherlock/actionbarsherlock.iml" />
-      <module fileurl="file://$PROJECT_DIR$/business/business.iml" filepath="$PROJECT_DIR$/business/business.iml" />
-      <module fileurl="file://$PROJECT_DIR$/miou/miou.iml" filepath="$PROJECT_DIR$/miou/miou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miou.iml" filepath="$PROJECT_DIR$/miou.iml" />
     </modules>
   </component>
 </project>
